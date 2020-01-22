@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(50, 101, 134);
+    background-color: rgb(115, 10, 40);
 }
 
 .wrapper {
@@ -47,6 +47,7 @@ body {
     cursor: pointer;
     width: 55px;
     z-index: 3;
+    margin-top: 50px;
 }
 
 .menu-toggle div {
@@ -69,21 +70,24 @@ body {
 
 .main-contents h2 {
     letter-spacing: 1.5px;
+    margin-top: 2rem;
     margin-bottom: .6rem;
     text-transform: uppercase;
+    font-size: 20px;
 }
 .main-contents p {
     font-size: 1.1rem;
     letter-spacing: 1.7px;
     line-height: 1.35;
-         color: #ccc;
-         transition-delay: 150ms;
-         transition-duration: 850ms;
+    color: #ccc;
+    transition-delay: 150ms;
+    transition-duration: 850ms;
+    margin: .6rem 0rem;
 }
 
 .main-nav-list::before,
 .main-nav-list::after {
-    background-color:#b94071;
+    background-color:rgb(0, 0, 0);
     content:"";
     position: absolute;
     top: 0;
@@ -162,7 +166,7 @@ body {
 }
 
 .wrapper.active p {
-     color: rgb(50, 101, 134);
+     color: rgb(115, 10, 40);
                transition-delay: 150ms;
      transition-duration: 350ms;
 }
